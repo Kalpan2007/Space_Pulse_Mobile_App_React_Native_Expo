@@ -1,110 +1,99 @@
-# Space Pulse 🚀
+
+# 🚀 Space Pulse
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/placeholder/space-pulse-logo.png" alt="Space Pulse Logo" width="120" />
+</p>
+
+<p align="center">
+   <b>The ultimate space news & activity app</b><br>
+   <i>Stay ahead of the universe with real-time news, blogs, and reports from the space industry.</i>
+</p>
+
+<p align="center">
+   <img src="https://img.shields.io/github/stars/Kalpan2007/Space_Pulse_Mobile_App_React_Native_Expo?style=for-the-badge" />
+   <img src="https://img.shields.io/github/license/Kalpan2007/Space_Pulse_Mobile_App_React_Native_Expo?style=for-the-badge" />
+   <img src="https://img.shields.io/badge/Expo-54.0.33-blueviolet?style=for-the-badge&logo=expo" />
+   <img src="https://img.shields.io/badge/React_Native-0.81.5-61dafb?style=for-the-badge&logo=react" />
+</p>
+
+---
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/placeholder/space-pulse-demo.gif" alt="Space Pulse Demo" width="600" />
+   <br>
+   <i>Stunning UI. Real-time space news. Lightning fast.</i>
+</p>
+
+---
 
 A premium space news & activity mobile app built with React Native and Expo. Get the latest space news, blog posts, and industry reports from the Spaceflight News API.
 
-## ✨ Features
 
-- **Home Feed** - Featured carousel with parallax animations, latest articles with infinite scroll
-- **News Explorer** - Search and filter articles, blogs, and reports with content type tabs
-- **Bookmarks** - Save your favorite content for offline access
-- **Settings** - Customize notifications and manage storage
-- **Premium UI** - Glassmorphism effects, blur backgrounds, gradient accents
+
+---
+
+## 📱 Screenshots
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/placeholder/screenshot1.png" width="200" />
+   <img src="https://user-images.githubusercontent.com/placeholder/screenshot2.png" width="200" />
+   <img src="https://user-images.githubusercontent.com/placeholder/screenshot3.png" width="200" />
+</p>
+
+---
+
 
 ## 🛠️ Tech Stack
 
-- **React Native** with Expo SDK 50
-- **React Navigation v6** - Bottom tabs + Native stack navigation
-- **Zustand** - Lightweight state management
-- **Axios** - API calls with interceptors
-- **FlashList** - High-performance list rendering
-- **React Native Reanimated** - Smooth 60fps animations
-- **Expo Blur** - Native blur effects
-- **TypeScript** - Full type safety
+<p>
+   <img src="https://img.shields.io/badge/Expo-54.0.33-blueviolet?logo=expo" />
+   <img src="https://img.shields.io/badge/React_Native-0.81.5-61dafb?logo=react" />
+   <img src="https://img.shields.io/badge/TypeScript-5.1.3-3178c6?logo=typescript" />
+   <img src="https://img.shields.io/badge/Zustand-4.4.7-ff9800?logo=react" />
+   <img src="https://img.shields.io/badge/Axios-1.6.2-5a29e4?logo=axios" />
+   <img src="https://img.shields.io/badge/FlashList-2.0.2-00bcd4" />
+   <img src="https://img.shields.io/badge/Reanimated-3.0.0-00e676" />
+</p>
 
-## 🚀 Getting Started
 
-### Prerequisites
+## 🚀 Quick Start
 
-- Node.js 18+
-- npm or yarn
-- Expo CLI
-- iOS Simulator or Android Emulator (or Expo Go app)
-
-### Installation
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/space-pulse.git
-cd space-pulse
-```
+# 1. Clone the repo
+git clone https://github.com/Kalpan2007/Space_Pulse_Mobile_App_React_Native_Expo.git
+cd Space_Pulse_Mobile_App_React_Native_Expo
 
-2. Install dependencies:
-```bash
+# 2. Install dependencies
 npm install
-```
 
-3. Start the development server:
-```bash
+# 3. Start the app
 npx expo start
 ```
 
-4. Run on your device:
-   - Press `i` for iOS simulator
-   - Press `a` for Android emulator
-   - Scan QR code with Expo Go app
+Open in Expo Go, iOS Simulator, or Android Emulator.
+
 
 ## 📁 Project Structure
 
-```
+```text
 src/
-├── api/              # API service layer
-│   ├── client.ts     # Axios instance with interceptors
-│   ├── articles.ts   # Articles endpoints
-│   ├── blogs.ts      # Blogs endpoints
-│   ├── reports.ts    # Reports endpoints
-│   └── info.ts       # Info endpoints
-├── components/       # Reusable UI components
-│   ├── ArticleCard.tsx
-│   ├── FeaturedCarousel.tsx
-│   ├── GlassCard.tsx
-│   └── ...
-├── hooks/            # Custom React hooks
-│   ├── useDebounce.ts
-│   ├── usePagination.ts
-│   └── useAnimations.ts
-├── navigation/       # Navigation configuration
-│   ├── TabNavigator.tsx
-│   └── RootNavigator.tsx
-├── screens/          # App screens
-│   ├── HomeScreen.tsx
-│   ├── ExploreScreen.tsx
-│   ├── SavedScreen.tsx
-│   └── SettingsScreen.tsx
-├── store/            # Zustand state stores
-│   ├── articlesStore.ts
-│   ├── savedItemsStore.ts
-│   └── settingsStore.ts
-├── theme/            # Design system
-│   ├── colors.ts
-│   ├── typography.ts
-│   └── spacing.ts
-├── types/            # TypeScript definitions
-└── utils/            # Utility functions
+   api/         # API service layer
+   components/  # Reusable UI components
+   hooks/       # Custom React hooks
+   navigation/  # Navigation config
+   screens/     # App screens
+   store/       # Zustand state stores
+   theme/       # Design system
+   types/       # TypeScript types
+   utils/       # Utility functions
 ```
+
 
 ## 🎨 Design System
 
-### Colors
-- **Primary**: #0B0F1A (Deep Space)
-- **Secondary**: #6C63FF (Cosmic Purple)
-- **Accent**: #00E5FF (Electric Cyan)
-- **Background**: #05070D (Void Black)
-
-### UI Elements
-- Glassmorphism cards with blur effects
-- Gradient accent buttons
-- Animated skeleton loaders
-- Spring-based micro-interactions
+- **Colors:** Deep Space (#0B0F1A), Cosmic Purple (#6C63FF), Electric Cyan (#00E5FF), Void Black (#05070D)
+- **UI:** Glassmorphism, gradients, animated skeletons, spring micro-interactions
 
 ## 📡 API
 
@@ -147,12 +136,24 @@ npx expo run:ios
 npx expo run:android
 ```
 
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
 ## 📄 License
 
-MIT License - feel free to use this project for learning or as a template.
+MIT License — use this project for learning or as a template.
+
+
+---
 
 ## 🙏 Credits
 
-- [Spaceflight News API](https://spaceflightnewsapi.net/) - Free API for space news
-- [Expo](https://expo.dev/) - React Native development platform
-- [Ionicons](https://ionic.io/ionicons) - Premium icon library
+- [Spaceflight News API](https://spaceflightnewsapi.net/) — Free API for space news
+- [Expo](https://expo.dev/) — React Native development platform
+- [Ionicons](https://ionic.io/ionicons) — Premium icon library
