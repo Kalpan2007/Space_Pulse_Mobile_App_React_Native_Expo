@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Space Pulse",
+    "slug": "space-pulse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#05070D"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spacepulse.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#05070D"
+      },
+      "package": "com.spacepulse.app"
+    },
+    "web": {
+    },
+    "plugins": []
+  }
+}
