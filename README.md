@@ -37,17 +37,54 @@
    - settings.png
 -->
 
-<div align="center">
-  <img src="./assets/home_page_1.png" alt="Home Screen - Featured Articles" width="250" />
-  <img src="./assets/main_search.png" alt="Search Interface" width="250" />
-  <img src="./assets/artical.png" alt="Article Detail" width="250" />
-</div>
+## 📷 Screenshots
 
-<div align="center">
-  <img src="./assets/saved_articales.png" alt="Saved Articles" width="250" />
-  <img src="./assets/pagination.png" alt="Pagination Controls" width="250" />
-  <img src="./assets/settings.png" alt="Settings Screen" width="250" />
-</div>
+<table align="center">
+<tr>
+<td align="center" width="33%">
+<img src="./assets/home_page_1.png" width="250"/><br/>
+<b>Home</b>
+</td>
+
+<td width="40"></td> <!-- 🔥 GAP COLUMN -->
+
+<td align="center" width="33%">
+<img src="./assets/main_search.png" width="250"/><br/>
+<b>Search</b>
+</td>
+
+<td width="40"></td> <!-- 🔥 GAP COLUMN -->
+
+<td align="center" width="33%">
+<img src="./assets/artical.png" width="250"/><br/>
+<b>Article</b>
+</td>
+</tr>
+
+<tr height="30"></tr> <!-- 🔥 ROW GAP -->
+
+<tr>
+<td align="center">
+<img src="./assets/saved_articales.png" width="250"/><br/>
+<b>Saved</b>
+</td>
+
+<td></td>
+
+<td align="center">
+<img src="./assets/pagination.png" width="250"/><br/>
+<b>Pagination</b>
+</td>
+
+<td></td>
+
+<td align="center">
+<img src="./assets/settings.png" width="250"/><br/>
+<b>Settings</b>
+</td>
+</tr>
+</table>
+
 
 ---
 
