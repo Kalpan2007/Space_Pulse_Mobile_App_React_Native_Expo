@@ -37,16 +37,18 @@
    - settings.png
 -->
 
-<div align="center">
-  <img src="./assets/home_page_1.png" alt="Home Screen - Featured Articles" width="250" />
-  <img src="./assets/main_search.png" alt="Search Interface" width="250" />
-  <img src="./assets/artical.png" alt="Article Detail" width="250" />
-</div>
+## 📷 Screenshots
 
 <div align="center">
-  <img src="./assets/saved_articales.png" alt="Saved Articles" width="250" />
-  <img src="./assets/pagination.png" alt="Pagination Controls" width="250" />
-  <img src="./assets/settings.png" alt="Settings Screen" width="250" />
+
+<img src="./assets/home_page_1.png" width="28%" style="margin:10px;" />
+<img src="./assets/main_search.png" width="28%" style="margin:10px;" />
+<img src="./assets/artical.png" width="28%" style="margin:10px;" />
+
+<img src="./assets/saved_articales.png" width="28%" style="margin:10px;" />
+<img src="./assets/pagination.png" width="28%" style="margin:10px;" />
+<img src="./assets/settings.png" width="28%" style="margin:10px;" />
+
 </div>
 
 ---
