@@ -14,28 +14,21 @@
 ![Axios](https://img.shields.io/badge/Axios-1.6.2-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 ![React Navigation](https://img.shields.io/badge/React_Navigation-7.0-6C63FF?style=for-the-badge&logo=react&logoColor=white)
 
-**Makers:** Solo Project | Personal Project  
-**Status:** Production Ready | 8 Screens | Netflix-Level Polish
+
+
+**Developer:**
+
+<a href="https://github.com/kalpan2007" target="_blank">
+  <img src="https://github.com/kalpan2007.png" width="120" style="border-radius: 50%;" />
+</a>
+
+### Kalpan Kaneriya
+
+
 
 </div>
 
 ---
-
-## 📷 Screenshots
-
-<!-- 
-   IMPORTANT FOR MAINTAINER:
-   All screenshots are stored in ./assets/ directory.
-   Replace the placeholder filenames below with actual images:
-   - home_page_1.png
-   - home_page_2.png
-   - artical.png
-   - main_search.png
-   - search_result.png
-   - pagination.png
-   - saved_articales.png
-   - settings.png
--->
 
 ## 📷 Screenshots
 
