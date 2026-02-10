@@ -39,17 +39,52 @@
 
 ## 📷 Screenshots
 
-<div align="center">
+<table align="center">
+<tr>
+<td align="center" width="33%">
+<img src="./assets/home_page_1.png" width="250"/><br/>
+<b>Home</b>
+</td>
 
-<img src="./assets/home_page_1.png" width="28%" style="margin:10px;" />
-<img src="./assets/main_search.png" width="28%" style="margin:10px;" />
-<img src="./assets/artical.png" width="28%" style="margin:10px;" />
+<td width="40"></td> <!-- 🔥 GAP COLUMN -->
 
-<img src="./assets/saved_articales.png" width="28%" style="margin:10px;" />
-<img src="./assets/pagination.png" width="28%" style="margin:10px;" />
-<img src="./assets/settings.png" width="28%" style="margin:10px;" />
+<td align="center" width="33%">
+<img src="./assets/main_search.png" width="250"/><br/>
+<b>Search</b>
+</td>
 
-</div>
+<td width="40"></td> <!-- 🔥 GAP COLUMN -->
+
+<td align="center" width="33%">
+<img src="./assets/artical.png" width="250"/><br/>
+<b>Article</b>
+</td>
+</tr>
+
+<tr height="30"></tr> <!-- 🔥 ROW GAP -->
+
+<tr>
+<td align="center">
+<img src="./assets/saved_articales.png" width="250"/><br/>
+<b>Saved</b>
+</td>
+
+<td></td>
+
+<td align="center">
+<img src="./assets/pagination.png" width="250"/><br/>
+<b>Pagination</b>
+</td>
+
+<td></td>
+
+<td align="center">
+<img src="./assets/settings.png" width="250"/><br/>
+<b>Settings</b>
+</td>
+</tr>
+</table>
+
 
 ---
 
