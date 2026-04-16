@@ -5,23 +5,44 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
     "splash": {
+      "image": "./assets/splashscreen_logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#05070D"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
+      "buildNumber": "1",
       "bundleIdentifier": "com.spacepulse.app"
     },
     "android": {
+      "package": "com.spacepulse.app",
+      "versionCode": 1,
       "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#05070D"
-      },
-      "package": "com.spacepulse.app"
+      }
     },
-    "web": {
+    "web": {},
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splashscreen_logo.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#05070D"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c75f56da-42dc-4691-b551-e3c4ccabf163"
+      }
     },
-    "plugins": []
+    "owner": "kalpan"
   }
 }
