@@ -446,6 +446,15 @@ Before pushing code, verify:
 
 ---
 
+## 📁 Documentation
+
+See the `docs/` folder for detailed documentation:
+
+- [API Documentation](docs/api_docs.md) - API endpoints, parameters, and examples
+- [Architecture Documentation](docs/architecture.md) - System design, data flow, and patterns
+
+---
+
 ## 📁 Project Structure
 
 ```text
